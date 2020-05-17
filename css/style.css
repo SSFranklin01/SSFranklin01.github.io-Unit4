@@ -1,0 +1,43 @@
+
+.button {
+    border-radius: 12px;
+    background-color: rgb(35, 3, 71);
+    color: whitesmoke;
+    height: 40px;
+    width: 200px;
+    display: inline-block;
+}
+
+.hide {
+    display: none;
+}
+
+.score,
+.countdownTimer {
+    font-weight: bold;
+}
+
+.navscore{
+    float: left;
+}
+
+#quizBox {
+    align-content: center;
+}
+
+#question {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+body {
+    align-content: center;
+}
+
+#result {
+    font-size: 20px;
+}
+
+#yourInitials{
+    padding-left: 60px;
+}

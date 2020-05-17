@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Code Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+          
+          <nav class="navbar navbar-expand-lg navbar-light bg-light col-md-4 col-lg-8 ">
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-item nav-link active score navscore" href="score.html">View Highscore</a>
+              </div>
+            </div>
+
+            <div class = "countdownTimer">
+              <p>Your time: <span id="time"></span></p>
+            </div>
+
+          </nav>         
+        </div>
+
+        <div class="row">
+          <div class="text-center" >
+            <div class="quizContainer" id="quizBox">
+                </br>
+                
+                <!--Screen 1-->
+                <div id="startScreen">
+
+                  <h2>Coding Quiz Challenge</h2>
+                    <p>Try to answer the following code related questions correctly within 
+                        the time limit.  Keep in mind that incorrect answers will penalize 
+                        your score time ten seconds!
+                    </p>
+                    
+                    <button id="startButton" class="button">Start</button>
+                </div>
+
+                <!--Screen 2-->
+                
+                <div id="quizScreen" class="hide">
+
+                   <p id="question">Question</p>
+                   <button id ="choice1" class="button"></button>
+                   <button id ="choice2" class="button"></button>
+                   <button id ="choice3" class="button"></button>
+                   <button id ="choice4" class="button"></button>
+                   <p id="result"></p>
+                </div>
+
+             
+                <!--Screen 3-->
+                <div id="outOfTimeScreen" class="hide">
+                  <p>You ran out of time.  Click Try Again to start over.</p>
+                  <input type="button" class="button" value="Start Over" onclick="window.location.href='index.html'"/>
+                </div>
+
+                <!--Screen 4-->
+                <div id="scoreScreen" class="hide">
+                  <h3 id="endMsg"></h3>
+                  <h2 id="yourScore"></h2>
+                  <p>Enter your initials:</p>
+                  <form>
+                    <input type="text" id="yourInitials">
+                   
+                    <input type="button" class="button" id="submitIntials" value="Submit" onclick="window.location.href='score.html'"/>
+                  </form>
+                </div> 
+            </div>
+          </div>  
+        </div>
+      </div>
+
+
+
+      
+
+      <script type="text/javascript" src="js/scriptTimer.js"></script>
+      <script type="text/javascript" src="js/scriptquestions.js"></script>
+      <script type="text/javascript" src="js/script.js"></script>
+
+
+</body>
+
+</html>
