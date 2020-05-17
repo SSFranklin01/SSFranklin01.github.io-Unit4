@@ -9,3 +9,19 @@ After clicking the start button, a set of questions appears with multiple choice
 The user selected option is compared to the correct answer.  Correct answers are rewarded with 'good job'.  Wrong answers, however, are penalized by reducing the available completion time by 10 seconds. 
 
  The quiz ends when all the questions are answered or the timer reaches zero.  The user enters their initials to save their score.
+ 
+ Start Screen:
+ ![]images/Start_Screen.png
+ 
+ A Question:
+ ![]images/Question.png
+ 
+ Question with an Answer:
+ ![]images/Question_Answer.png
+ 
+ Score Screen:
+ ![]images/Score.png
+ 
+ High Score Screen:
+ ![]images/High_Score.png
+ 
