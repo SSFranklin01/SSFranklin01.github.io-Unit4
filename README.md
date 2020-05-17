@@ -11,17 +11,17 @@ The user selected option is compared to the correct answer.  Correct answers are
  The quiz ends when all the questions are answered or the timer reaches zero.  The user enters their initials to save their score.
  
  Start Screen:
- ![]images/Start_Screen.png
+ ![](images/Start_Screen.png)
  
  A Question:
- ![]images/Question.png
+ ![](images/Question.png)
  
  Question with an Answer:
- ![]images/Question_Answer.png
+ ![](images/Question_Answer.png)
  
  Score Screen:
- ![]images/Score.png
+ ![](images/Score.png)
  
  High Score Screen:
- ![]images/High_Score.png
+ ![](images/High_Score.png)
  
